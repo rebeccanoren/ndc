@@ -41,7 +41,14 @@ export default function Home() {
 <h2 className={styles.title}>
         Vi erbjuder installation av system för mätning, loggning, analys, och styrning av ventilation.
         </h2>
-</div>
+
+        <div className={styles.grid}>
+        <div className={styles.card}><h3>🔧</h3><h4>Styrinstallation</h4>Vi utför uppdrag från utredning till installation av PLC-system.</div>
+        <div className={styles.card}><h3>📐</h3><h4>Konstruktion</h4>Vi utför projektering och konstruktion av energibesparande och funktionella styrsystem.</div>
+        <div className={styles.card}><h3>💻</h3><h4>Programmering</h4>Vi är experter på PLC programmerbara styrsystem.</div>
+</div></div>
+
+
 
   
 
